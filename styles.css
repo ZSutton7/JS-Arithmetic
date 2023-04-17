@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #ea9031, #ffffff);
+    min-height: 100vh;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+}
+
+.heading p {
+    text-align: center;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.matherParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.matherParent h1 {
+    text-decoration: underline;
+    margin: 25px;
+    padding: 25px;
+}
+
+.equals {
+    text-decoration: none !important;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.operations button {
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 0px 25px;
+    background-color: black;
+    color: white;
+}
